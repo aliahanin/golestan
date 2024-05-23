@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: IRANSANS;
+    src: url('../fonts/IRANSansLight.woff');
+}
+@layer component{
+    *{
+        font-family: IRANSANS;
+    }
+}
+.mobileNav{
+    height: 0;
+    overflow: hidden;
+    transition: 500ms;
+}
+.checkBox:checked + .mobileNav{
+    height: 360px !important;
+}
