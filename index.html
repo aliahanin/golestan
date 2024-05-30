@@ -1,18 +1,16 @@
-<!doctype html >
-<html dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
+<!DOCTYPE html>
+<html  dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>صفحه اصلی</title>
     <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/output.css">
-    
-    <title>چای گلستان</title>
-  </head>
-  <body>
+</head>
+<body>
     <!-- header -->
-       <div class="w-full sticky top-0 z-10 mobile:bg-[#262626]">
+    <div class="w-full sticky top-0 z-10 mobile:bg-[#262626]">
         <div class=" desktop:hidden  flex flex-wrap ">
           <div class="w-[100%] h-[115px] mobile:relative  ">
            <img class="mobile:w-[170px] mobile:h-[105px] mobile:mr-20 pt-5  " src="./images/header/golestanlogo-fr.png" alt="">
@@ -30,7 +28,7 @@
             <div class="flex flex-col absolute bg-[#262626] w-full top-[50px] desktop:hidden mobileNav">
                 <a class="block p-4 py-2 text-white text-lg" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3">صفحه اصلی</span></a>
                 <a class="block p-4 py-2 text-white text-lg" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">شرکت گلستان</span></a>
-                <a class="block p-4 py-2 text-white text-lg" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">محصولات</span></a>
+                <a class="block p-4 py-2 text-white text-lg" href="./product.html"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">محصولات</span></a>
                 <a class="block p-4 py-2 text-white text-lg" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">وبلاگ</span></a>
                 <a class="block p-4 py-2 text-white text-lg" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">قرعه کشی</span></a>
                 <a class="block p-4 py-2 text-white text-lg" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">استخدام</span></a>
@@ -39,14 +37,24 @@
             </div>
           </div>
                <!-- desktop -->
-               <div class="desktop:w-[100%] mobile:hidden desktop:h-[100px] desktop:bg-[#262626] desktop:flex desktop:flex-row desktop:fixed z-30">
+               <div class="desktop:w-[100%]  mobile:hidden desktop:h-[100px] desktop:bg-[#262626] desktop:flex desktop:flex-row desktop:justify-center desktop:fixed z-30">
                  <div class="desktop:w-[205px] desktop:h-[100px]  ">
                    <img class="desktop:pr-5 translate-y-10" src="./images/header/golestanlogo-fr.png" alt="">
                  </div>
-                 <div class="desktop:w-[820px] desktop:h-[100px]  desktop:flex desktop:flex-row desktop:items-center pt-3   desktop:justify-center  ">
+                 <div class="desktop:w-[820px] desktop:h-[100px]  desktop:flex desktop:flex-row desktop:items-center pt-3   desktop:justify-center  menuhover">
                    <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] ">صفحه اصلی</span></a>
-                   <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">شرکت گلستان</span></a>
-                   <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">محصولات</span></a>
+                  <div class="relative group">
+                    <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">شرکت گلستان</span></a>
+                    <div class="absolute hidden bg-[#262626] flex-col gap-4 w-[150px] p-5 group-hover:flex">
+                      <a href="#" class="text-white">Link</a>
+                      <a href="#" class="text-white">Link</a>
+                      <a href="#" class="text-white">Link</a>
+                      <a href="#" class="text-white">Link</a>
+                      <a href="#" class="text-white">Link</a>
+                      <a href="#" class="text-white">Link</a>
+                    </div>
+                  </div>
+                   <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="./product.html"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">محصولات</span></a>
                    <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">وبلاگ</span></a>
                    <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">قرعه کشی</span></a>
                    <a class="border-l-2 border-[#3f3f46]  desktop:h-[30px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-center" href="#"><span class=" pl-5 text-[15px] text-[#a1a1aa] pr-3 ">استخدام</span></a>
@@ -58,2289 +66,213 @@
                </div>
        </div>
            <!--  end header -->
-       </div>
-        <!-- momtaz -->
-        <div class="w-full bg-slate-200  desktop:hidden ">
-          <div class="w-[200px] flex">
-           <img  class="w-full object-contain "  src="./images/header/tea3.png" alt="">
-          </div>
-          <div class="w-[100%] h-[82px]  ">
-           <div class=" w-fit">
-             <p class="text-[20px] text-red-500 font-sans pr-2 mb-1  "> 
-               چای گلستان
-             </p>
-             <span class="text-[14px] font-sans pr-2">سابقه ای به قدمت یک عمر</span>
-           </div>
-          </div>
-          </div>
-       <!-- desktop -->
-       <div class="mobile:hidden desktop:w-[100%] desktop:h-[350px] desktop:flex desktop:flex-row desktop:flex-wrap  desktop:items-center  desktop:justify-center desktop:relative desktop:top-24   desktop:bg-[#E9E9E9]   ">
-        <div class="mobile:hidden desktop:w-[350px] desktop::h-[350px] desktop:block   ">
-          <h1 class="desktop:text-red-500 text-[31px] font-bold">چای گلستان</h1>
-          <span class="desktop:text-[25px]" >سابقه ای به قدمت یک عمر</span>
-        </div>
-        <div class="desktop:w-[350px] desktop::h-[350px] desktop:flex desktop:items-center">
-          <img class="desktop:w-[350px] desktop:h-[350px] desktop:object-contain desktop:pr-10  " src="./images/main/tea2.png" alt="">
-        </div>
-       </div>
-       <!-- desktop -->
-      <!-- momtaz-->
-       <!--introducing  -->
-      <div class="mobile:w-[100%] mobile:h-auto mobile:pt-32 flex flex-wrap">
-       <span class="mobile:w-fit mobile:h-fit desktop:w-[100%] desktop:h-fit desktop:flex  font-bold  text-red-500 mobile:text-[16px] 
-       desktop:text-[18px] desktop:pr-36 desktop:translate-y-10  mobile:pr-5   ">معرفی محصول</span>
-       <span class="mobile:w-fit mobile:h-fit desktop:w-[100%] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80  block mobile:text-[15px]  text-gray-600    mobile:p-9 desktop:mt-5 ">
-        چای تنها یك نوشیدنی گرم نیست.‌ یك گفتمان است؛‌ گرمابخش وجود و بهانه‌ای برای آغاز یك معاشرت دل‌چسب. بی‌دلیل نیست كه نام «محبوب‌ترین نوشیدنی دنیا» را با خود یدك می‌كشد. نوشیدنش خستگی‌ها را فراری داده،‌ حس خوب آرامش به همراه دارد.		
-       </span>
-       <span class="w-fit font-medium  opacity-80 mobile:text-[15px] desktop:w-[100%] desktop:pr-36 desktop:pl-44   text-gray-600 mobile:p-10 ">
-        با چای پیوند خورده است؛‌ قدیمی‌ترین محصول مجموعه گلستان،‌ با مدرن‌ترین و بهداشتی‌ترین دستگاه‌های روز دنیا تهیه و بسته‌بندی می‌شود. چیزی كه باعث شده مشتریانش یك عمر به نام گلستان اعتماد كنند، كیفیت، ‌عطر و طعم به یادماندنی آن است.						
-       </span>
-       <span class="w-fit font-medium  opacity-80 mobile:text-[15px]  text-gray-600 mobile:p-10 desktop:w-[100%] desktop:pr-36 desktop:pl-44 desktop:mb-28 ">
-        شرکت گلستان با اتکا به بیش از نیم قرن سابقه در تهیه و ترکیب انواع چای، بهترین انواع چای را از مناطق برتر تولیدکننده مانند هندوستان، سیلان و کنیا خریداری نموده و آن ها را به اقتضای ذائقه ایرانی، به منظور دستیابی به بهترین عطر، طعم و رنگ با استفاده از دستگاه های مخصوص به نسبت مشخصی ترکیب می نماید و در اوزان مختلف بسته بندی و در بازار عرضه می کند</span>
-
-       </div>
+       <!-- momtaz -->
+       <div class="w-full flex flex-col justify-center items-center bg-slate-200  desktop:hidden ">
        
-       <!-- end introducing -->
-       <!-- moatar -->
-       <div class="mobile:w-[100%] mobile:h-[320px] desktop:hidden ">
-        <img class="w-[230px] h-[300px] object-cover m-auto pt-10 pl-5 " src="./images/main/moatar-tea-1.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای ارل گری (معطر)</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">وزن های موجود</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/225gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/100gr-icon.png" alt="">
-          </div>
-        </div>
-        <div class=""></div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          چای ارل گری گلستان، ترکیبی است از انواع چای باروتی سیلان که با عصاره برگاموت معطر شده است. زمان دم کشیدن این چای 7 تا 8 دقیقه می باشد.
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center mb-20 ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/moatar-tea-1.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px] desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای ارل گری (معطر)</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px] " src="./images/main/225gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							چای ارل گری گلستان، ترکیبی است از انواع چای باروتی سیلان که با عصاره برگاموت معطر شده است. زمان دم کشیدن این چای 7 تا 8 دقیقه می باشد.
-						
-
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-         
-        </div>
-       </div>
-       <!-- desktop -->
-
-       <!-- end moatar  -->
-       <!-- start hendi -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] ">
-        <img class="w-[230px] h-[300px] object-cover m-auto pt-10 pl-5 " src="./images/main/product-tea-2.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای ممتاز هندوستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">وزن های موجود</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/225gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/100gr-icon.png" alt="">
-          </div>
-        </div>
-        <div class=""></div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          چای ارل گری گلستان، ترکیبی است از انواع چای باروتی سیلان که با عصاره برگاموت معطر شده است. زمان دم کشیدن این چای 7 تا 8 دقیقه می باشد.
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-tea-2.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px] desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای ممتاز هندوستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px] " src="./images/main/225gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							چای ممتاز هندوستان گلستان دستچینی است زرین از مرغوبترین برگ و غنچه گیاه چای که در کناره های رودخانه برهماپوترا در اراضی آسام و دارجلینگ هند به عمل آمده است. این چای دارای عطر و طعم طبیعی چای سنتی هندوستان می باشد. زمان دم کشیدن این چای 8 تا 12دقیقه می باشد.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!--  hendi end -->
-      <!-- seilan -->
-      <div class="mobile:w-[100%] mobile:h-[320px] desktop:hidden ">
-        <img class="w-[230px] h-[300px] object-cover m-auto pt-10 pl-5 " src="./images/main/product-tea-3.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden  mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای سیلان طلایی</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">وزن های موجود</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/100gr-icon.png" alt="">
-          </div>
-        </div>
-        <div class=""></div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden  mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-        
-							گلستان با دستچینی از جوانترین برگهای چای رشد یافته در کوهپایه ها و دشت های سریلانکا یکی از بهترین نوشیدنی های چای را با عنوان چای سیلان طلایی به بازار عرضه کرده است. زمان دم کشیدن این چای 7 تا 8 دقیقه می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden  flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-tea-3.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px] desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای سیلان طلایی</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							گلستان با دستچینی از جوانترین برگهای چای رشد یافته در کوهپایه ها و دشت های سریلانکا یکی از بهترین نوشیدنی های چای را با عنوان چای سیلان طلایی به بازار عرضه کرده است. زمان دم کشیدن این چای 7 تا 8 دقیقه می باشد.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- seilan end -->
-       <!-- breakfast -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] ">
-        <img class="mobile:w-[230px] mobile:h-[300px] object-cover m-auto pt-10 pl-5 " src="./images/main/product-tea-4.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای صبحانه گلستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">وزن های موجود</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/100gr-icon.png" alt="">
-          </div>
-        </div>
-        <div class=""></div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-							چای صبحانه گلستان، دستچینی از بهترین چای کله مورچه ای، باغات هندوستان می باشد. با عطر و رنگ کاملاً طبیعی و به دلیل سرعت زیاد دم کشیدن مناسب جهت استفاده در صبح می باشد. چای صبحانه با رنگ دهی بالا مقرون بصرفه است. زمان دم کشیدن این چای 3 تا 4 دقیقه می باشد.
-						
-        </span>
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[42px] flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-tea-4.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای صبحانه گلستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/500gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							چای صبحانه گلستان، دستچینی از بهترین چای کله مورچه ای، باغات هندوستان می باشد. با عطر و رنگ کاملاً طبیعی و به دلیل سرعت زیاد دم کشیدن مناسب جهت استفاده در صبح می باشد. چای صبحانه با رنگ دهی بالا مقرون بصرفه است. زمان دم کشیدن این چای 3 تا 4 دقیقه می باشد.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end breakfast -->
-       <!-- start darjeeling -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] ">
-        <img class="w-[230px] h-[300px] object-cover m-auto pt-10 pl-5 " src="./images/main/product-tea-Darjeeling.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 flex ">چای دارجلينگ </span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">وزن های موجود</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/200gr-icon.png" alt="">
-            
-          </div>
-        </div>
-        <div class=""></div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-							چای دارجلينگ دستچينی از بهترين و مرغوب ترين برگ های چای منطقه دارجلينگ در شمال هندوستان و كوهپايه های هيماليا مي باشد. اين چای يكی از ارزشمندترين چای های جهان و دارای عطر و طعمی منحصربه فرد است.
-
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-tea-Darjeeling.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-14   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 ">چای دارجلينگ (توقف تولید)</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/200gr-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							چای دارجلينگ دستچينی از بهترين و مرغوب ترين برگ های چای منطقه دارجلينگ در شمال هندوستان و كوهپايه های هيماليا مي باشد. اين چای يكی از ارزشمندترين چای های جهان و دارای عطر و طعمی منحصربه فرد است.
-
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end darjeeling -->
-       <!-- T-moatar -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-1.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ ارل گری</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/50-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/25-icon.png" alt="">
-          </div>
-        </div>
-        <div class=""></div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          چای ارل گری گلستان، ترکیبی است از انواع چای باروتی سیلان که با عصاره برگاموت معطر شده است. زمان دم کشیدن این چای 7 تا 8 دقیقه می باشد.
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-1.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 ">تی بگ ارل گری</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/50-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							چای کیسه ای ممتاز عطری گلستان از ترکیب مرغوبترین چای خارجی CTC هندوستان به همراه عصاره برگاموت به صورت دولایه تولید شده است. عصاره گیاه برگاموت نوشیدنی با عطر شعف آور و طعم و رنگ عالی برای مصرف در تمام اوقات فراهم آورده است. برگاموت نوعی از مرکبات با طعم و خواص مشابه ترنج است.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end T-moatar -->
-       <!-- T-hendi -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-2.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ  هندوستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/50-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/25-icon.png" alt="">
-          </div>
-        </div>
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-							چای کیسه ای ممتاز هندوستان محصول بهترین و مرغوب ترین برگ های چای می باشد. که با عشق توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده و نوشیدنی منحصر به فردی را با طعم دلپذیر و رنگ مطلوب برای لذت بردن شما فراهم کرده است.
-						
-
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-2.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 ">تی بگ ممتاز هندوستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/50-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-							چای کیسه ای ممتاز هندوستان محصول بهترین و مرغوب ترین برگ های چای می باشد. که با عشق توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده و نوشیدنی منحصر به فردی را با طعم دلپذیر و رنگ مطلوب برای لذت بردن شما فراهم کرده است.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end T-hendi -->
-       <!-- T-golestan -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-3.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ خارجه گلستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/50-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/25-icon.png" alt="">
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-							چای کیسه ای درجه یک گلستان محصول بهترین و مرغوب ترین برگ های چای از مزارع هندوستان می باشد که توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده، و به صورت تی بگ تک لایه عرضه می شود.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-3.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ خارجه گلستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/50-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-						
-							چای کیسه ای درجه یک گلستان محصول بهترین و مرغوب ترین برگ های چای از مزارع هندوستان می باشد که توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده، و به صورت تی بگ تک لایه عرضه می شود.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end T-golestan -->
-       <!-- kharji -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-4.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ خارجه معطر</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/50-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/25-icon.png" alt="">
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-						
-          چای کیسه ای درجه یک گلستان محصول بهترین و مرغوب ترین برگ های چای از مزارع هندوستان می باشد که توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده، و به صورت تی بگ تک لایه عرضه می شود.
-						
-        </span>
-       </div>
-       <div class="w-[100%] desktop:hidden h-[42px] flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-4.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ خارجه گلستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/50-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-							چای کیسه ای درجه یک گلستان محصول بهترین و مرغوب ترین برگ های چای از مزارع هندوستان می باشد که توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده، و به صورت تی بگ تک لایه عرضه می شود.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end kharji -->
-       <!-- anolop -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-5.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-[162px] mobile:h-[20px] mobile:text-[19px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی‌بگ  انولوپ‌‌دار</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/1000-icon.png" alt="">
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          تی‌بگ خارجه انولوپ‌‌دار گلستان در بسته بندی 1000عددی برای مصارف صنعتی، رستوران ها، هتل ها و… عرضه شده است. پاکت محافظ (انولوپ) برای هر کیسه چای باعث ماندگاری بهتر عطر و طعم چای می شود.  
-						
-        
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-5.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی‌بگ خارجه انولوپ‌‌دار</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/1000-icon.png" alt="">
-              
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-              تی‌بگ خارجه انولوپ‌‌دار گلستان در بسته بندی 1000عددی برای مصارف صنعتی، رستوران ها، هتل ها و… عرضه شده است. پاکت محافظ (انولوپ) برای هر کیسه چای باعث ماندگاری بهتر عطر و طعم چای می شود.
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end anolop -->
-       <!-- Tashrifat -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-6.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[16px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ تشریفات ممتاز هندوستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/1000-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/25-icon.png" alt="">
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-						
-         
-							چای کیسه ای تشریفات ممتاز گلستان (انولوپ دار) محصول بهترین و مرغوب ترین برگ های چای از مزارع هندوستان می باشد. که توسط متخصصین شرکت گلستان با یکدیگر ترکیب شده و نوشیدنی منحصر به فردی را برای لذت بردن شما فراهم کرده است.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-6.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-10 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-10  translate-y-2  text-red-500 ">  تی بگ تشریفات ممتاز هندوستان</span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">تعداد در بسته</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/1000-icon.png" alt="">
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-                
-                
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600 ">
-                تی‌بگ خارجه انولوپ‌‌دار گلستان در بسته بندی 1000عددی برای مصارف صنعتی، رستوران ها، هتل ها و… عرضه شده است. پاکت محافظ (انولوپ) برای هر کیسه چای باعث ماندگاری بهتر عطر و طعم چای می شود.
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
+        <div class="w-[100%] h-[368px] flex justify-center flex-wrap ">
+         <div class=" w-fit pr-5">
+           <p class="text-[30px] text-red-500 font-sans block  pt-5 mb-3  "> 
+             قرعه کشی ماهیانه گلستان
+           </p>
+           <span class=" text-[21px]  font-sans  text-justify ">قرعه‌کشی ماهیانه مصرف‌کنندگان چای گلستان  </span>
+           <span class="text-[15px] text-justify font-sans block pl-10 mt-5 text-[#898989]">
+            هر یک از مصرف‌کنندگان محصولات چای  گلستان می‌توانند با ارسال کد قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های ماهیانه سال 1403شرکت کنند. 
+نگهداری از بسته‌بندی محصول برای اهدای جایزه الزامی است.
+           </span>
+           <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 ">
+            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">اطلاعات بیشتر</a>
           </div>
          </div>
-         <!-- desktop -->
-       <!-- end Tashrifat -->
-       <!-- tashrifat moatar -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-teabag-7.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/teabag-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[16px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ تشریفات ارل گری (معطر)</span>
         </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/1000-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px] " src="./images/main/25-icon.png" alt="">
-          </div>
+        <div class=" flex">
+            <img  class="w-[200px] object-contain "  src="./images/header/tea3.png" alt="">
+           </div>   
         </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-						
-         
-							چای کیسه ای تشریفات ارل گری (معطر، انولوپ دار) ترکیبی از برگ های لطیف و مرغوب از بهترین مزارع چای به همراه عصاره برگاموت است. که با دقت توسط متخصصین با تجربه گلستان انتخاب شده و نوشیدنی با عطر شعف آور و طعم و رنگ عالی برای مصرف در تمام اوقات فراهم آورده است. برگاموت نوعی از مرکبات با طعم و خواص مشابه ترنج است.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-teabag-7.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-10 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-10  translate-y-2  text-red-500 ">  تی بگ تشریفات ممتاز هندوستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/1000-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-              
-							چای کیسه ای تشریفات ارل گری (معطر، انولوپ دار) ترکیبی از برگ های لطیف و مرغوب از بهترین مزارع چای به همراه عصاره برگاموت است. که با دقت توسط متخصصین با تجربه گلستان انتخاب شده و نوشیدنی با عطر شعف آور و طعم و رنگ عالی برای مصرف در تمام اوقات فراهم آورده است. برگاموت نوعی از مرکبات با طعم و خواص مشابه ترنج است.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] desktop:pt-5 ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end tashrifat moatar -->
-       <!-- Green tea -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[300px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-1.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[18px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای سبز خالص گلستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
+     <!-- desktop -->
+     <div class="mobile:hidden desktop:w-[100%] desktop:h-[350px] desktop:flex desktop:flex-row desktop:flex-wrap  desktop:items-center  desktop:justify-center desktop:relative desktop:top-24   desktop:bg-[#E9E9E9]   ">
+      <div class="mobile:hidden desktop:w-[350px] desktop::h-[350px] desktop:block   ">
+        <h1 class="desktop:text-red-500 text-[31px] font-bold">چای گلستان</h1>
+        <span class="desktop:text-[25px]" >سابقه ای به قدمت یک عمر</span>
+      </div>
+      <div class="desktop:w-[350px] desktop::h-[350px] desktop:flex desktop:items-center">
+        <img class="desktop:w-[350px] desktop:h-[350px] desktop:object-contain desktop:pr-10  " src="./images/main/tea2.png" alt="">
+      </div>
+     </div>
+     <!-- desktop -->
+    <!-- momtaz-->
+    <!--introducing  -->
+    <div class="w-[100%]  mobile:h-auto desktop:h-[700px] mobile:pt-10 flex flex-wrap mb-16 desktop:justify-center  ">
+        <span class="mobile:w-fit mobile:h-fit desktop:w-[100%] desktop:h-fit desktop:flex   font-bold  text-red-500 mobile:text-[16px] 
+        desktop:text-[20px] desktop:pr-36 desktop:translate-y-10 desktop:mt-12  mobile:pr-10 desktop:justify-center desktop:translate-x-80     ">معرفی محصول</span>
+        <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-auto font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify">
             
-          </div>
-        </div>
+          می‌شناسیم در سال 1329 بنیان نهاده شد. زمانی که شرکت <span class="text-[red]">گلستان</span> فعالیت خود را با بسته‌بندی و توزیع چای پاکتی آغاز کرد. با گذر زمان و رشد اقتصاد کشور، نهال «گلستان» به تدریج تقویت شد و شاخ و برگ گرفت. فعالیت‌های «گلستان» با تهیه، تولید و بسته‌بندی بهترین محصولات غذایی گسترش پیدا کرد.  </span>
+        <span class="w-fit font-medium  opacity-80 mobile:text-[15px] desktop:w-[851px] desktop:pr-36 desktop:pl-44 text-justify   text-gray-600 mobile:p-10 ">
+            هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف تعیین شده، به کار گیری همکاران مجرب و دلسوز، استفاده از روش های نوین بازاریابی و مشتری محوری از جمله عوامل مهم در استراتژی   </span>
+            <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:h-fit desktop:flex   font-bold  text-red-500 mobile:text-[18px] 
+            desktop:text-[18px] desktop:pr-36 desktop:translate-y-10  mobile:pr-10  translate-y-2   ">محصولات گلستان</span>
+            <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify desktop:justify-center   ">
+                قدمتی به اندازه عمر شرکت گلستان دارد. گلستان ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند. مصرف‌کنندگان محصولات گلستان همواره از این نام تجاری خاطره محصولاتی ممتاز و منحصر بفرد دارند و با اطمینان از نهایت کیفیت این نام تجاری حمایت می‌کنند.  </span>
+            <div class="mobile:w-[355px] mobile:bg-[#898989] mobile:h-[2px] block desktop:hidden  mobile:-translate-x-3 "></div>
+    </div>
         
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-						
-         
-							چای سبز گلستان سرشار از ترکیبات آنتی اکسیدان (ترکیبات ضد سرطان) و ویتامینهای K, C, B1, B2, A می باشد و دارای خواص درمانی کاهش ابتلا به سرطان، شادابی پوست و مو، تراکم استخوان، سلامتی دهان و دندان و کاهش وزن است.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-         <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-greentea-1.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای سبز خالص گلستان</span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-							
-							چای سبز گلستان سرشار از ترکیبات آنتی اکسیدان (ترکیبات ضد سرطان) و ویتامینهای K, C, B1, B2, A می باشد و دارای خواص درمانی کاهش ابتلا به سرطان، شادابی پوست و مو، تراکم استخوان، سلامتی دهان و دندان و کاهش وزن است.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end Green tea -->
-       <!-- Green tea-2 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[300px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-2.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[18px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای سبز لیمویی گلستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-          
-						
-         
-						
-          
-						
-         
-          چای سبز گلستان سرشار از ترکیبات آنتی اکسیدان (ترکیبات ضد سرطان) و ویتامینهای K, C, B1, B2, A می باشد و دارای خواص درمانی کاهش ابتلا به سرطان، شادابی پوست و مو، تراکم استخوان، سلامتی دهان و دندان و کاهش وزن است.
-						
-        
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-greentea-2.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای سبز خالص گلستان</span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">وزن های موجود</span>
+        <!-- end introducing -->
+        <!-- desktop golestan-count -->
+        <div class="desktop:w-full desktop:h-[300px] mobile:hidden desktop:flex  desktop:justify-center flex-row flex-wrap desktop:border-b-2 desktop:border-gray-600 desktop:mb-20  ">
+          <div class="desktop:w-[851px] desktop:h-[269px]  desktop:flex desktop:flex-row desktop:flex-wrap desktop:gap-2  ">
+            <div class="desktop:w-[205px] desktop:h-[269px] desktop:flex flex-col  ">
+              <div class="desktop:w-[205px] desktop:h-[185px]">
+                <img class="desktop:w-[205px] desktop:h-[185px]" src="data:image/jpeg;base64,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" alt="">
               </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
+              <span class="desktop:w-[185px] desktop:h-[100px] flex items-center justify-center text-[#898989] ">سرمایه انسانی</span>
+            </div>
+            <div class="desktop:w-[205px] desktop:h-[269px] desktop:flex flex-col ">
+            <div class="desktop:w-[205px] desktop:h-[185px]">
+                <img class="desktop:w-[205px] desktop:h-[185px]" src="data:image/jpeg;base64,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" alt="">
               </div>
+              <span class="desktop:w-[185px] desktop:h-[100px] flex items-center justify-center text-[#898989] ">مراکز فروش</span>
             </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600  ">
-  
-                
-                چای سبز گلستان سرشار از ترکیبات آنتی اکسیدان (ترکیبات ضد سرطان) و ویتامینهای K, C, B1, B2, A می باشد و دارای خواص درمانی کاهش ابتلا به سرطان، شادابی پوست و مو، تراکم استخوان، سلامتی دهان و دندان و کاهش وزن است.
-              
-              </span>
+            <div class="desktop:w-[205px] desktop:h-[269px] desktop:flex flex-col ">
+              <div class="desktop:w-[205px] desktop:h-[185px]">
+                <img class="desktop:w-[205px] desktop:h-[185px]" src="data:image/jpeg;base64,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" alt="">
+              </div>
+              <span class="desktop:w-[185px] desktop:h-[100px] flex items-center justify-center text-[#898989] ">محصولات گلستان</span>
             </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
+            <div class="desktop:w-[205px] desktop:h-[269px] desktop:flex flex-col ">
+              <div class="desktop:w-[205px] desktop:h-[185px]">
+                <img class="desktop:w-[205px] desktop:h-[185px]" src="data:image/jpeg;base64,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" alt="">
+              </div>
+              <span class="desktop:w-[185px] desktop:h-[100px] flex items-center justify-center text-[#898989] ">مشتریان گلستان</span>
             </div>
-            
           </div>
-         </div>
-         <!-- desktop -->
-       <!-- end Green tea-2 -->
-       <!-- Green tea-3 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[300px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-3.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[18px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای سبز نعناع گلستان</span>
         </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            
-          </div>
+        <!-- desktop golestan-count -->
+        <!-- rice image -->
+        <div class="w-[100%] mobile:h-[373px] desktop:w-full desktop:h-[500px] relative ">
+            <img class="mobile:w-[375px] desktop:w-[1519px] desktop:h-[500px] mobile:h-[270px]" src="/assets/image2-new-1-C7_0DPkb.jpg" alt="">
+            <div class="mobile:w-[375px]  mobile:h-[93px] bg-[#ED1C24] desktop:w-full absolute mobile:right-0 mobile:bottom-0 desktop:translate-y-7  ">
+                <p class="text-[30px] text-[#E9E9E9] pr-5 mb-3">برنج گاستان</p>
+                <span class="text-[15px] text-[#E9E9E9] pr-5 ">معرفی محصول</span>
+            </div>
+        </div>
+        <!-- rice image -->
+        <!-- introducing-2 -->
+        <div class="mobile:w-[100%]  h-[326px] mobile:pt-10 flex flex-wrap  desktop:justify-center">
+            <span class="mobile:w-fit mobile:h-fit desktop:w-[100%] desktop:h-fit desktop:flex  font-bold   text-red-500 mobile:text-[18px] 
+            desktop:text-[18px] desktop:pr-36 desktop:translate-y-10  mobile:pr-10  desktop:justify-center desktop:translate-x-80    ">رکن اول غذای ایرانی</span>
+            <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80  block mobile:text-[15px]  text-gray-600  mobile:p-9 desktop:mt-5 text-justify">
+                مرغوب‌ترین برنج دنیا، برنج ایران است و بهترین نوع برنج ایرانی،‌ طارم و هاشمی. این برنج‌ها از بهترین شالیزارهای مازندران برداشت شده، پس از كنترل كیفیت در آزمایشگاه‌های تخصصی گلستان وارد چرخه بسته‌بندی و در وزن‌های مختلف به بازار عرضه می‌شوند. عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است چرا كه مشتریان گلستان؛‌ لایق بهترین‌ها هستند.</span>
+                <div class="w-[100%] h-[42px]  flex mobile:pt-5 gap-2 pr-5  desktop:justify-center desktop:translate-x-40 desktop:p-10  ">
+                  <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul " href="#">محصولات برنج</a>
+                  <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul" href="#">برنج آشپزخانه</a>
+                </div>
         </div>
         
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-							طعم طبیعی چای سبز و عطر ملایم نعناع، یک انتخاب ایده ال جهت مصرف بعد از وعده های غذایی می باشد. ترکیبات آنتی اکسیدانی موجود در چای سبز با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-greentea-3.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای سبز نعناع گلستان </span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">وزن های موجود</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600  ">
-  
-                طعم طبیعی چای سبز و عطر ملایم نعناع، یک انتخاب ایده ال جهت مصرف بعد از وعده های غذایی می باشد. ترکیبات آنتی اکسیدانی موجود در چای سبز با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد.
-						
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
-          </div>
-         </div>
-         <!-- desktop -->
-       <!-- end Green tea-3 -->
-       <!-- Green tea-4 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[300px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-4.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[18px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای سبز یاس گلستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-							
-          ترکیب گل های یاس و چای سبز رایحه ای خوشایند و به یادماندنی یه ارمغان می آورد. این محصول علاوه بر طعم خوب کلسترول خون را به میزان قابل توجهی کاهش می‌ دهد و به دلیل فلوراید موجود در چای سبز می تواند نقش مهمی در محافظت دندانها ایفا می کند.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[300px]" src="./images/main/product-greentea-4.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[80px] desktop:h-[80px] pb-2 translate-x-20   " src="./images/main/herbal-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-20  translate-y-2  text-red-500 ">چای سبز یاس گلستان </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">وزن های موجود</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600  ">
-
            
-
-              طعم طبیعی چای سبز و عطر ملایم نعناع، یک انتخاب ایده ال جهت مصرف بعد از وعده های غذایی می باشد. ترکیبات آنتی اکسیدانی موجود در چای سبز با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد.
-          
-            
-            </span>
+        <!-- introducing-2 -->
+         <!-- tea image -->
+         <div class="w-[100%] mobile:h-[373px] desktop:w-full desktop:h-[500px] relative pt-7 ">
+          <img class="mobile:w-[375px] desktop:w-[1519px] desktop:h-[500px] mobile:h-[270px]" src="/assets/image3-new-DihwgYsZ.jpg" alt="">
+          <div class="mobile:w-[375px]  mobile:h-[93px] bg-[#ED1C24] desktop:w-full absolute mobile:right-0 mobile:bottom-0 desktop:translate-y-7  ">
+              <p class="text-[30px] text-[#E9E9E9] pr-5 mb-3">چای گلستان</p>
+              <span class="text-[15px] text-[#E9E9E9] pr-5 ">معرفی محصول</span>
           </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end Green tea-4 -->
-       <!-- Green tea-5 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-5.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ چای سبز</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2  ">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/50-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          چای سبز کیسه ای گلستان به دلیل ویژگی های منحصر به فردش از شهرت فراوانی برخوردار است. ترکیبات آنتی اکسیدانی موجود در چای سبز موجب کاهش ریسک ابتلا به سرطان می گردد و با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-greentea-5.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ چای سبز </span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">تعداد در بسته</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/50-icon.png" alt="">
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-                
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600 ">
-  
-  
-              
-							چای سبز کیسه ای گلستان به دلیل ویژگی های منحصر به فردش از شهرت فراوانی برخوردار است. ترکیبات آنتی اکسیدانی موجود در چای سبز موجب کاهش ریسک ابتلا به سرطان می گردد و با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد.
-						
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
-          </div>
-         </div>
-         <!-- desktop -->
-       <!-- end Green tea-5 -->
-       <!-- Green tea-6 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-6.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ چای سبز دارچین</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          با نوشیدن یک فنجان چای سبز کیسه ای دارچین گلستان، علاوه بر خواص مفید چای سبز از املاح معدنی موجود در دارچین از جمله کلسیم، آهن، پتاسیم و … بهره خواهید برد. این نوشیدنی برای بیماران دیابتی نیز مفید می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-greentea-6.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ چای سبز دارچین </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/100gr-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/50-icon.png" alt="">
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای سبز کیسه ای گلستان به دلیل ویژگی های منحصر به فردش از شهرت فراوانی برخوردار است. ترکیبات آنتی اکسیدانی موجود در چای سبز موجب کاهش ریسک ابتلا به سرطان می گردد و با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end  Green tea-6 -->
-       <!--  Green tea-7 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-7.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ چای سبز یاس</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          با نوشیدن یک فنجان چای سبز کیسه ای دارچین گلستان، علاوه بر خواص مفید چای سبز از املاح معدنی موجود در دا
-          ترکیب گل های یاس و چای سبز رایحه ای خوشایند و به یادماندنی یه ارمغان می آورد. چای سبز کیسه ای یاس گلستان علاوه بر طعم خوب کلسترول خون را به میزان قابل توجهی کاهش می‌ دهد و به دلیل فلوراید موجود در چای سبز می تواند نقش مهمی در محافظت دندانها ایفا می کند.
-        
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-greentea-7.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ چای سبز یاس  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-							ترکیب گل های یاس و چای سبز رایحه ای خوشایند و به یادماندنی یه ارمغان می آورد. چای سبز کیسه ای یاس گلستان علاوه بر طعم خوب کلسترول خون را به میزان قابل توجهی کاهش می‌ دهد و به دلیل فلوراید موجود در چای سبز می تواند نقش مهمی در محافظت دندانها ایفا می کند.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end  Green tea-7 -->
-       <!-- Green tea-8 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-8.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ چای سبز لیمویی</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          چای سبز کیسه ای لیمو گلستان به دلیل خواص درمانی متفاوت اش در کاهش ابتلا به سرطان، شادابی پوست و مو، تراکم استخوان و سلامتی دهان و دندان یک نوشیدنی سالم و طبیعی را برای شما به ارمغان می آورد. لذت نوشیدن این چای سالم و طبیعی را تجربه کنید.
-						
-        
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-greentea-8.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ چای سبز لیمویی </span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">تعداد در بسته</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-                
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600 ">
-  
-  
-              
-							چای سبز کیسه ای لیمو گلستان به دلیل خواص درمانی متفاوت اش در کاهش ابتلا به سرطان، شادابی پوست و مو، تراکم استخوان و سلامتی دهان و دندان یک نوشیدنی سالم و طبیعی را برای شما به ارمغان می آورد. لذت نوشیدن این چای سالم و طبیعی را تجربه کنید.
-						
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
-          </div>
-         </div>
-         <!-- desktop -->
-       <!-- end  Green tea-8 -->
-       <!-- Green tea-9 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-9.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">تی بگ چای سبز نعناع</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          طعم طبیعی چای سبز و عطر ملایم نعناع، یک انتخاب ایده ال جهت مصرف بعد از وعده های غذایی می باشد. ترکیبات آنتی اکسیدانی موجود در چای سبز کیسه ای نعناع گلستان با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-greentea-9.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> تی بگ چای سبز نعناع</span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">تعداد در بسته</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-                
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600 ">
-  
-  
-              
-							طعم طبیعی چای سبز و عطر ملایم نعناع، یک انتخاب ایده ال جهت مصرف بعد از وعده های غذایی می باشد. ترکیبات آنتی اکسیدانی موجود در چای سبز کیسه ای نعناع گلستان با افزایش متابولیسم بدن تاثیر بسزایی در کاهش وزن، کنترل فشار خون و چربی خون دارد
-						
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
-          </div>
-         </div>
-         <!-- desktop -->
-       <!-- end Green tea-9 -->
-       <!-- Green tea combination-1 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[250px] object-cover  pt-10 pl-5 " src="./images/main/product-greentea-60.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-7 mobile:translate-y-10 text-red-500 ">جعبه ترکیبی چای سبز گلستان</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/60.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          بسته ترکیبی 60عددی چای سبز گلستان مناسب انواع سلیقه‌ها و حاوی 60 عدد چای کیسه‌ای با طعم‌های چای سبز دارچین (20 عدد)، چای سبز خالص (20 عدد)، چای سبز لیمویی (10عدد) و چای سبز نعناع (10عدد) است.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-greentea-60.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-14 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> جعبه ترکیبی چای سبز گلستان </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/60.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-							بسته ترکیبی 60عددی چای سبز گلستان مناسب انواع سلیقه‌ها و حاوی 60 عدد چای کیسه‌ای با طعم‌های چای سبز دارچین (20 عدد)، چای سبز خالص (20 عدد)، چای سبز لیمویی (10عدد) و چای سبز نعناع (10عدد) است.
-						
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end Green tea combination-1 -->
-       <!-- product-blackline-1 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-1.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-10 mobile:translate-y-10 text-red-500 ">چای رویال بلک لاین </span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/400-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-1.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">تعداد در بسته</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-                
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600 ">
-  
-  
-              
-							چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-						
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
-          </div>
-         </div>
-         <!-- desktop -->
-       <!-- end product-blackline-1 -->
-       <!-- product-blackline-2 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-2.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-7 mobile:translate-y-10 text-red-500 "> چای بلک لاین رویال ارل گری</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/400-icon.png" alt="">
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          تی بگ بلک لاین رویال ارل گری با طعم برگاموت ساخته شده از مرغوب ترین چای CTC هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. چای کیسه‌ای رویال ارل گری گلستان علاوه بر مطلوبیت طعم و رفع خواب‌آلودگی و سردرد مفید است. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کیسه چای می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-2.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-
-       <!-- end product-blackline-2 -->
-       <!-- product-blackline-3 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-3.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-7 mobile:translate-y-10 text-red-500 "> چای بلک لاین با طعم هلو</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          تی بگ بلک لاین گلستان با طعم هلو از ترکیب 100% چای سیاه سی تی سی هندوستان و کنیا با طعم هلو ساخته شده و نوشیدنی خوش‌عطرو دلچسب برای تمام اوقات روز است. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کیسه چای می باشد. این چای کیسه‌ای دلپذیر را 3 تا 5 دقیقه در آب‌جوش قرار دهید تا دم بکشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-3.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end product-blackline-3 -->
-       <!-- product-blackline-4 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-4.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-7 mobile:translate-y-10 text-red-500 "> چای بلک لاین با طعم دارچین</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-					
-          تی بگ بلک لاین دارچین گلستان در بسته بندی ویژه به بازار عرضه شده است. دارچین اثر آرام کننده و شاد کننده دارد و باعث بهبود گردش خون می شود. دارچین علاوه بر همه این خواص، طعم بسیار خوبی نیز دارد. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین دارچین گلستان داری پاکت محافظ (انولوپ) برای هر کیسه چای می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-4.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end product-blackline-4 -->
-       <!-- product-blackline-5 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-5.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-7 mobile:translate-y-10 text-red-500 "> چای بلک لاین با طعم لیمویی</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-							تی بگ بلک لاین لیمویی محصولی خوش عطر و فرح بخش است که از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای،تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کیسه چای می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-          <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-            <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-5.png" alt="">
-          </div>
-          <!-- left -->
-          <div class="desktop:w-[466px] desktop:h-[356px]  ">
-            <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-              <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-            <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-                <span class="desktop:text-[18px] ">تعداد در بسته</span>
-              </div>
-              <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-                
-                
-                <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-                
-              </div>
-            </div>
-            <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-              <span class="text-[15px] opacity-80 text-gray-600 ">
-  
-  
-              
-              چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-            
-              </span>
-            </div>
-            <div class="desktop:w-fit desktop:h-[62px] ">
-              <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-            </div>
-            
-          </div>
-         </div>
-         <!-- desktop -->
-       <!-- end product-blackline-5 -->
-       <!-- product-blackline-6 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-6.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-7 mobile:translate-y-10 text-red-500 "> چای بلک لاین با عطر حل</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-							تی بگ بلک لاین گلستان با طعم دهنده ی طبیعی هل از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کیسه چای می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-6.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end product-blackline-6 -->
-       <!-- product-blackline-7 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-11.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-4 mobile:translate-y-10 text-red-500 "> چای بلک لاین با عطر زعفرانی</span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-							تی بگ بلک لاین زعفرانی گلستان در بسته‌بندی ویژه به بازار عرضه شده و حاوی مرغوب‌ترین انواع زعفران است. زعفران شادی‌آور بوده و تأثیر به‌سزایی در تقویت سیستم عصبی دارد. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین زعفرانی گلستان داری پاکت محافظ (انولوپ) برای هر کیسه چای می باشد.
-						
-        </span>
-       </div>
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-100% desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-11.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end product-blackline-7 -->
-       <!-- product-blackline-8 -->
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-[320px] flex justify-center items-center ">
-        <img class="mobile:w-[230px] mobile:h-[200px] object-cover  pt-10 pl-5 " src="./images/main/product-blackline-60.png" alt="">
-       </div>
-       <div class="mobile:w-[100%] desktop:hidden mobile:h-auto flex flex-wrap justify-center ">
-        <div class="mobile:w-[325px] mobile:h-[82px] flex flex-wrap flex-row  border-b-2 border-gray-300  pb-5">
-          <img class="mobile:w-[69px] mobile:h-[60px] mobile:translate-y-4 " src="./images/main/herbal-icon.png" alt="">
-          <span class="mobile:w-fit mobile:h-[20px] mobile:text-[20px] mobile:-translate-x-4 mobile:translate-y-10 text-red-500 "> جعبه ترکیبی تی بگ بلک لاین </span>
-        </div>
-        <div class="mobile:w-[325px] mobile:h-[82px] mobile:flex mobile:flex-wrap mobile:flex-row border-b-2 border-gray-300 ">
-          <div class="mobile:w-[50%] mobile:h-[82px] ">
-             <p class="mobile:w-fit mobile:h-fit mobile:pt-2 mobile:pr-1 ">تعداد در بسته</p>
-          </div>
-          <div class="mobile:w-[50%] h-[82px] flex flex-row gap-1.5 items-end pb-2 justify-end ">
-            
-            
-            <img class="mobile:w-[45px] mobile:h-[45px]" src="./images/main/25-icon.png" alt="">
-            
-          </div>
-        </div>
-        
-       </div>
-       <div class="mobile:w-[325px] desktop:hidden mobile:h-fit flex pr-10 pt-5 justify-center ">
-        <span class="mobile:w-[325px] text-[15px] opacity-80 text-gray-600 ">
-						
-          
-							چای کیسه‌ای ترکیبی گلستان مدل Black Line بسته60 عددی در شش طعم متفاوت ارل گری، لیمو، رویال، دارچین، هل و هلو تهیه شده است.
-						
-        </span>
-       </div> 
-       <div class="w-[100%] h-[42px] desktop:hidden flex pt-5 pr-5 ">
-         <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px]" href="#">خرید محصول</a>
-       </div>
-       <!-- desktop -->
-       <div class="desktop:w-[100%] desktop:h-[356.2px] desktop:mb-20 desktop:flex mobile:hidden desktop:flex-row desktop:flex-wrap desktop:justify-center ">
-        <div class="desktop:w-[233px] desktop:h-[356px] desktop:flex  desktop:items-center  ">
-          <img class="desktop:w-[213px] desktop:h-[185px] desktop:-translate-y-10" src="./images/main/product-blackline-60.png" alt="">
-        </div>
-        <!-- left -->
-        <div class="desktop:w-[466px] desktop:h-[356px]  ">
-          <div class="desktop:w-[446px] desktop:h-[82px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center desktop:gap-8 border-b-2 border-gray-300 desktop:translate-y-10 ">
-            <img class="desktop:w-[70px] desktop:h-[70px] pb-2 desktop:translate-x-20 desktop:translate-y-3    " src="./images/main/teabag-icon.png" alt="">
-          <span class="desktop::w-[162px] desktop::h-[20px]  desktop:text-[20px] translate-x-14  translate-y-2  text-red-500 "> چای رویال بلک لاین  </span>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[52px]  desktop:mt-10 desktop:flex desktop:items-center border-b-2 border-gray-300 ">
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center ">
-              <span class="desktop:text-[18px] ">تعداد در بسته</span>
-            </div>
-            <div class="desktop:w-[50%] desktop:h-[52px] desktop:flex desktop:items-center desktop:justify-end desktop:gap-2 ">
-              
-              
-              <img class="desktop:w-[45px] desktop:h-[45px]" src="./images/main/25-icon.png" alt="">
-              
-            </div>
-          </div>
-          <div class="desktop:w-[446px] desktop:h-[121px] desktop:mb-10 pt-2">
-            <span class="text-[15px] opacity-80 text-gray-600 ">
-
-
-            
-            چای تی بگ رویال بلک لاین نوشیدنی دلچسب و محبوبی برای تمام اوقات روز است. چای کیسه ای رویال از مرغوب ترین چای CTC صددرصد خارجه هندوستان و کنیا تهیه شده است و در بسته بندی ویژه عرضه می شود. برای ماندگاری بهتر عطر و طعم چای، تی بگ بلک لاین داری پاکت محافظ (انولوپ) برای هر کسه چای می باشد.
-          
-            </span>
-          </div>
-          <div class="desktop:w-fit desktop:h-[62px] ">
-            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md desktop:pr-5 desktop:pl-5 desktop:pt-3 desktop:pb-3  flex items-center text-[15px]" href="#">خرید محصول</a>
-          </div>
-          
-        </div>
-       </div>
-       <!-- desktop -->
-       <!-- end product-blackline-8 -->
-       <!-- icons -->
-       <div class="mobile:w-[100%] mobile:h-[95px] bg-gray-200 flex items-center justify-center mt-20 gap-2 ">
-        <a class="" href="#"><i class="fa-brands fa-facebook flex  text-[40px] text-[gray] "></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in flex  text-[40px] text-[gray]"></i></a>
-        <a href="#"><i class="fa-brands fa-square-instagram flex  text-[40px] text-[gray]"></i></a>
-        <a href="#"><i class="fa-brands fa-telegram flex  text-[40px] text-[gray]"></i></a>
-        
-       </div>
-       <!-- end icons -->
-       <!-- red line -->
-       <div class="mobile:w-[100%] mobile:h-[25px] bg-[darkred]"></div>
-       <!-- end red line -->
-       <!-- footer-1 -->
-       <div class="mobile:w-[100%] desktop:hidden  mobile:h-auto bg-[#262626] flex flex-wrap  justify-center pt-4 ">
-        <div class="mobile:w-[335px]   mobile:h-[90px] flex justify-center items-center  border-b-2   border-gray-300   ">
-          <img class="mobile:w-[85px] mobile:h-[100px]   mix-blend-multiply pb-4" src="./images/main/herbal-icon.png" alt="">
-        </div>
-        <div class="mobile:w-[335px] desktop:hidden mobile:h-[50px] flex justify-center items-center border-b-2   border-gray-300  ">
-          <span class="mobile:text-[16px] text-[#e2e8f0] font-light ">چای گلستان </span>
-        </div>
-        <div class="mobile:w-[335px] desktop:hidden mobile:h-[140px]  block pt-5 ">
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">چای ممتاز هندوستان</span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">چای ممتاز ارل گری​</span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">چای سيلان عطری​</span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">چای ممتاز سيلان​</span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">چای صبحانه گلستان​</span>
-        </div>
-        <div class="mobile:w-[335px] desktop:hidden mobile:h-auto pt-8 pb-4 border-b-2 flex justify-center   border-gray-300">
-          <img class="mobile:w-[90px] mobile:h-[80px] " src="https://www.golestan.com/wp-content/uploads/2023/01/footer-icon4.png" alt="">
-        </div>
-       
-        
-       <!-- end footer-1 -->
-       <!-- footer-2 -->
-       
-        <div class="mobile:w-[335px] mobile:h-[50px] flex justify-center items-center border-b-2   border-gray-300  ">
-          <span class="mobile:text-[16px] text-[#e2e8f0] font-light ">تی بگ گلستان  </span>
-        </div>
-        <div class="mobile:w-[335px] mobile:h-[140px]  block pt-5 ">
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">تی بگ بلک لاين</span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">تی بگ ارل گری   </span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1"> دمنوش نعناع</span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">دمنوش بابونه  </span>
-          <span class="text-[13px] block text-center text-[#e2e8f0] pb-1"> منوش چای سبز</span>
-        </div>
-        <div class="mobile:w-[335px] mobile:h-auto pt-8 pb-4 border-b-2 flex justify-center   border-gray-300">
-          <img class="mobile:w-[90px] mobile:h-[80px] mix-blend-multiply" src="./images/main/footer-icon3.png" alt="">
-        </div>
-       <!-- end footer-2 -->
-       <!-- footer-3 -->
-       <div class="mobile:w-[335px] mobile:h-[50px] flex justify-center items-center border-b-2   border-gray-300  ">
-        <span class="mobile:text-[16px] text-[#e2e8f0] font-light "> حبوبات گلستان</span>
       </div>
-      <div class="mobile:w-[335px] mobile:h-[140px]  block pt-5 ">
-        <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">  لوبيا قرمز ممتاز</span>
-        <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">  لوبيا چيتی گلستان   </span>
-        <span class="text-[13px] block text-center text-[#e2e8f0] pb-1">عدس كانادايی  </span>
-        <span class="text-[13px] block text-center text-[#e2e8f0] pb-1"> نخود زودپز كرمانشاه   </span>
-        <span class="text-[13px] block text-center text-[#e2e8f0] pb-1"> لوبيا سفيد گلستان </span>
+      <!-- tea image -->
+      <!-- introducing-3 -->
+     <div class="w-full h-[590px]    flex items-center flex-col justify-center ">
+      <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:h-fit desktop:flex   font-bold  text-red-500 mobile:text-[18px] 
+      desktop:text-[18px] desktop:pr-36 desktop:translate-y-10  mobile:pt-24 mobile:translate-x-16 desktop:pb-5  "> سابقه‌ای به قدمت یک عمر</span>
+      <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify desktop:justify-center    ">
+        چای تنها یك نوشیدنی گرم نیست.‌ یک گفتمان است؛‌ گرمابخش وجود و بهانه‌ای برای آغاز یك معاشرت دل‌چسب. بی‌دلیل نیست كه نام «محبوب‌ترین نوشیدنی دنیا» را با خود یدک می‌كشد. نوشیدنش خستگی‌ها را فراری داده،‌ حس خوب آرامش را به همراه دارد.</span>
+     <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify desktop:justify-center">با چای پیوند خورده است؛‌ قدیمی‌ترین محصول مجموعه گلستان،‌ با مدرن‌ترین و بهداشتی‌ترین دستگاه‌های روز دنیا تهیه و بسته‌بندی می‌شود. چیزی كه باعث شده مشتریانش یك عمر به نام گلستان اعتماد كنند، كیفیت، ‌عطر و طعم به یادماندنی آن است.						</span>
+     <div class="w-[100%] h-[42px]  flex mobile:pt-5 gap-2 pr-5  desktop:justify-center desktop:translate-x-52 desktop:p-10  ">
+      <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul " href="#">محصولات چای</a>
+     </div>
+     </div>
+      
+      <!-- introducing-3 -->
+      <!-- pestecies image -->
+      <div class="w-[100%] mobile:h-[373px] desktop:w-full desktop:h-[500px] relative pt-7  ">
+        <img class="mobile:w-[375px] desktop:w-[1519px] desktop:h-[500px] mobile:h-[270px]" src="/assets/image4-new-Bmj7VSZE.jpg" alt="">
+        <div class="mobile:w-[375px]  mobile:h-[93px] bg-[#ED1C24] desktop:w-full absolute mobile:right-0 mobile:bottom-0 desktop:translate-y-7  ">
+            <p class="text-[30px] text-[#E9E9E9] pr-5 mb-3">پسته گاستان</p>
+            <span class="text-[15px] text-[#E9E9E9] pr-5 ">معرفی محصول</span>
+        </div>
+    </div>
+    <!-- pestecies image -->
+     <!-- introducing-3 -->
+     <div class="w-full h-[590px]    flex items-center flex-col justify-center ">
+      <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:h-fit desktop:flex   font-bold  text-red-500 mobile:text-[18px] 
+      desktop:text-[18px] desktop:pr-36 desktop:translate-y-10  mobile:pt-24 mobile:translate-x-24 desktop:pb-5  ">آجیل خوش خنده</span>
+      <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify desktop:justify-center    ">
+        خواص فوق‌العاده پسته بر كسی پوشیده نیست. پسته را منبع ویتامین و مواد معدنی می‌نامند، یك پمپ خون‌ساز قوی و تسكین دهنده قلب و اعصاب.
+       </span>
+     <span class="mobile:w-fit mobile:h-fit desktop:w-[851px] desktop:pr-36 desktop:pl-44   desktop:h-[105px] desktop:flex font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify desktop:justify-center"><span class="text-[red] desktop:hidden">پسته گلستان</span> اما حسابش از دیگر پسته‌های بازار جداست. مرغوب‌ترین پسته خام از بهترین باغ‌های پسته ایران دستچین می‌شود.‌ پس از كنترل كیفیت در آزمایشگاه و اطمینان از سلامت محصول،‌ با زعفران درجه یک و نمک، بوداده و برشته شده و‌ پسته گلستان را با طعم و رنگ و عطری بی‌نظیر به ارمغان می‌آورد.						</span>
+     <div class="w-[100%] h-[42px]  flex mobile:pt-5 gap-2 pr-5  desktop:justify-center desktop:translate-x-52 desktop:p-10  ">
+      <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul " href="#"> ناتس گلستان</a>
+     </div>
+     </div>
+      
+      <!-- introducing-3 -->
+      <!-- majale -->
+      <div class="w-full h-[40px] block  pr-5 mb-20 pt-12">
+        <span class="text-[20px] text-[red] font-bold">مجله گلستان</span>
       </div>
+      <!-- majale -->
+      <!-- majale section -->
+      <div class="w-full h-auto bg-[#CDE4B0] flex mobile:flex-col desktop:flex-row items-center justify-center gap-5 ">
+        <div class="mobile:w-[331px] mobile:h-[595px] desktop:w-[318px] desktop:h-[601px]  ">
+          <div class="w-fit flex justify-center">
+            <img class="mobile:w-[365px] mobile:h-[331px] desktop:w-[341px] desktop:h-[309px]" src="/assets/download-BIfQ5j98.jpg" alt="">
+          </div>
+          <div class="w-full mobile:h-[251px] desktop:h-[281px] bg-slate-100 flex items-center  flex-col">
+            <span class="w-full text-[20px] text-[red] font-bold flex justify-start translate-y-5 pr-5 ">چیلاکیله</span>
+            <span class="font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify flex flex-col desktop:justify-center ">
+              احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست
+            </span>
+          </div>
+          <div class="w-[100%] h-[42px]  flex  gap-2 pr-5  desktop:justify-center ">
+            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul -translate-y-16 desktop:translate-x-20 " href="#"> ادامه مطلب</a>
+           </div>
+        </div>
+        <div class="mobile:w-[331px] mobile:h-[595px] desktop:w-[318px] desktop:h-[601px] ">
+          <div class="w-fit flex justify-center">
+            <img class="mobile:w-[365px] mobile:h-[331px] desktop:w-[341px] desktop:h-[309px]" src="/assets/download%20(1)-BhY6h_qG.jpg" alt="">
+          </div>
+          <div class="w-full mobile:h-[251px] desktop:h-[281px] bg-slate-100 flex items-center  flex-col">
+            <span class="w-full text-[20px] text-[red] font-bold flex justify-start translate-y-5 pr-5 ">سوپ مکزیکی</span>
+            <span class="font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify flex flex-col desktop:justify-center ">
+              احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست
+            </span>
+          </div>
+          <div class="w-[100%] h-[42px]  flex  gap-2 pr-5  desktop:justify-center ">
+            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul -translate-y-16 desktop:translate-x-20 " href="#"> ادامه مطلب</a>
+           </div>
+        </div>
+        <div class=" mobile:w-[331px] mobile:h-[595px] desktop:w-[318px] desktop:h-[601px]  ">
+          <div class="w-fit flex justify-center">
+            <img class="mobile:w-[365px] mobile:h-[331px] desktop:w-[341px] desktop:h-[309px]" src="/assets/download%20(2)-CLn4Xhh1.jpg" alt="">
+          </div>
+          <div class="w-full mobile:h-[251px] desktop:h-[281px] bg-slate-100 flex items-center  flex-col">
+            <span class="w-full text-[20px] text-[red] font-bold flex justify-start translate-y-5 pr-5 ">
+              ماکارونی با سبزیجات			</span>
+            <span class="font-medium opacity-80   mobile:text-[15px]  text-gray-600  mobile:p-9  text-justify flex flex-col desktop:justify-center ">
+              احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست
+            </span>
+          </div>
+          <div class="w-[100%] h-[42px]  flex  gap-2 pr-5  desktop:justify-center ">
+            <a class="border border-gray-500 text-gray-700 opacity-80 rounded-md p-5 flex items-center text-[15px] mahsul -translate-y-16 desktop:translate-x-20 " href="#"> ادامه مطلب</a>
+           </div>
+        </div>
+        </div>
+        
      
-       <!-- end footer-3 -->
-       <!-- design description -->
-       <div class="mobile:w-[100%] mobile:h-[130px]  pt-10 block border-t-2 border-[#3f3f46] mt-8 ">
-        <span class="text-[15px] text-[#272727] text-center block">All Right Reserved Golestan Company 2022-2025</span>
-        <span class="text-[13px] text-center text-[gray] block">Design By: Golestan Studio</span>
-       </div>
-       <!-- end design description -->
-       </div>
-        <!-- desktop -->
-        <div class="desktop:w-[100%] desktop:h-[363px] mobile:hidden desktop:bg-[#262626] desktop:block ">
-          <div class="desktop:w-[100%] desktop:h-[136px]  desktop:flex desktop:justify-center desktop:items-center desktop:gap-16">
-           <div class="desktop:w-[150px] border-gray-300 border-b pb-5 flex justify-center ">
-             <img class="w-[115px] h-[90px] mix-blend-multiply  " src="./images/main/herbal-icon.png" alt="">
-          </div>
-            <div class="desktop:w-[150px]  border-b border-gray-300 pb-5 desktop:flex desktop:justify-center">
-              <img class="w-[90px] h-[90px] mix-blend-multiply desktop:translate-y-2 " src="./images/main/teabag-icon.png" alt="">
-            </div>
-            <div class="desktop:w-[150px] border-b border-gray-300 pb-5 flex justify-center">
-              <img class="w-[115px] h-[90px] mix-blend-multiply " src="./images/main/footer-icon3.png" alt="">
-            </div>
-            <div class="desktop:w-[150px] border-b border-gray-300 pb-5 flex justify-center">
-              <img class="w-[115px] h-[90px] mix-blend-multiply " src="./images/main/footer-icon2.png" alt="">
-            </div>
-          </div>
-          <div class="desktop:w-[100%] desktop:h-[46px] desktop:flex desktop:flex-row desktop:justify-center   desktop:gap-16">
-           <div class="desktop:w-[150px] text-[#d4d4d8] desktop:h-[46px] border-gray-300 border-b pb-5 flex justify-center    ">
-            <span>چای گلستان</span>
-           </div>
-           <div class="desktop:w-[150px] text-[#d4d4d8] desktop:h-[46px] desktop:border-gray-300 desktop:border-b desktop:pb-5 desktop:flex desktop:justify-center ">
-            <span>تی بگ گلستان</span>
-           </div>
-            <div class="desktop:w-[150px] text-[#d4d4d8] desktop:h-[46px] desktop:border-gray-300 desktop:border-b desktop:pb-5 desktop:flex desktop:justify-center ">
-              <span>ادويه گلستان</span>
-            </div>
-            <div class="desktop:w-[150px] text-[#d4d4d8] desktop:h-[46px] desktop:border-gray-300 desktop:border-b desktop:pb-5 desktop:flex desktop:justify-center ">
-              <span>حبوبات گلستان</span>
-            </div>
-            
-          </div>
-          <div class="desktop:w-[100%] desktop:h-[181px] desktop:flex desktop:justify-center desktop:gap-16 desktop:border-gray-300 desktop:border-b ">
-            <div class="desktop:w-[150px] desktop:h-[140px] pt-5 ">
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای ممتاز هندوستان​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای ممتاز ارل گری​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای سيلان عطری​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای ممتاز سيلان​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide ">چای صبحانه گلستان​</span>
-            </div>
-            <div class="desktop:w-[150px] desktop:h-[140px]  pt-5">
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">تی بگ بلک لاين</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">تی بگ ارل گری</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">دمنوش نعناع</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">دمنوش بابونه</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide ">منوش چای سبز</span>
-            </div>
-            <div class="desktop:w-[150px] desktop:h-[140px] desktop:pt-5 ">
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">تی بگ بلک لاين</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">تی بگ ارل گری</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">دمنوش نعناع</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">دمنوش بابونه</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide ">منوش چای سبز</span>
-            </div>
-            <div class="desktop:w-[150px] desktop:h-[140px] desktop:pt-5">
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای ممتاز هندوستان​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای ممتاز ارل گری​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای سيلان عطری​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide pb-1">چای ممتاز سيلان​</span>
-              <span class="desktop:text-[12px] text-[#d4d4d8] block tracking-wide ">چای صبحانه گلستان​</span>
-            </div>
-          </div>
-        </div>
-        <div class="desktop:w-[100%] mobile:hidden desktop:h-[125px] desktop:bg-[#262626] desktop:flex desktop:items-center desktop:justify-center">
-         <div class="blocl">
-          <span class="text-[15px] text-[#e2e8f0] text-center block">All Right Reserved Golestan Company 2022-2025</span>
-          <span class="text-[13px] text-center text-[gray] block">Design By: Golestan Studio</span>
-         </div>
-        </div>
-        <!-- desktop -->
-        
+      <!-- majale section -->
+    
+    
+
 
        
-  </body>
+</body>
 </html>
