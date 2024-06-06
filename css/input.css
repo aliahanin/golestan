@@ -32,3 +32,6 @@
 .group a:hover{
     color: whitesmoke;
 }
+.display-none {
+    @apply hidden;
+}
